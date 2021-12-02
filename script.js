@@ -1,3 +1,5 @@
+
+
 function button1(){
 
     const animali={
@@ -15,7 +17,7 @@ function button2(){
         sesso:"maschio",
         inteligenza : "6"
     }
-    document.getElementById("demo").innerHTML = "il tipo : " +" "+ animali1.tipo +" "+ "gli anni sono :"+animali1.anni + " " +"il sesso :"+ animali1.sesso +" "+ "inteligenza :" + animali1.inteligezza
+    document.getElementById("mytext").innerHTML = "il tipo : " +" "+ animali1.tipo +" "+ "gli anni sono :"+animali1.anni + " " +"il sesso :"+ animali1.sesso +" "+ "inteligenza :" + animali1.inteligezza
 }
 function button3(){
     const animali2={
@@ -24,5 +26,5 @@ function button3(){
         sesso:"femmina",
         inteligenza : "5"
     }
-    document.getElementById("demo").innerHTML = "il tipo : " +" "+ animali2.tipo +" "+ "gli anni sono :"+animali2.anni + " " +"il sesso :"+ animali2.sesso +" "+ "inteligenza :" + animali2.inteligezza
+    document.getElementById("mytxt").innerHTML = "il tipo : " +" "+ animali2.tipo +" "+ "gli anni sono :"+animali2.anni + " " +"il sesso :"+ animali2.sesso +" "+ "inteligenza :" + animali2.inteligezza
 }
